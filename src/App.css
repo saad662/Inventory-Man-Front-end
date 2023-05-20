@@ -1,11 +1,68 @@
-.App {
-  text-align: center;
+.App{
+  margin: 0;
+  padding-bottom: 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navi {
+  background-color: black;
 }
+
+.inp-search{
+  margin-bottom: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+button {
+  margin-left: 10px !important;
+  padding: 5px !important;
+  margin: 0;
+  width: 55px;
+  height: 26px;
+  font-family: none !important;
+  font-size: 11px !important;
+  line-height: 1.5 !important;
+}
+
+.nav-brand {
+  color: white;
+  padding: 10px;
+  text-decoration: underline overline;
+}
+
+.nav-ul {
+  padding: 10px;
+}
+
+.nav-ul li {
+
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  padding: 6px;
+}
+
+.footer h3 {
+  color: white;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -24,6 +81,34 @@
   color: white;
 }
 
+.nav-right {
+  text-align: right;
+}
+
+.head4 {
+  float: left;
+  color: white;
+  margin-top: 18px;
+  margin-left: 8px;
+  text-decoration: underline overline;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.product-list ul {
+  margin: 0;
+}
+
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  width: 150px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -32,6 +117,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
